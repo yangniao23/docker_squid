@@ -1,0 +1,14 @@
+[Unit]
+Description=Squid which uses intercept proxy(HTTP:6080,HTTPS:6443) and forward proxy(3354) on Docker
+
+[Service]
+ExecStart=/home/ksmt/git/docker_squid/start.sh
+ExecStop=/home/ksmt/git/docker_squid/stop.sh
+ExecReload=/home/ksmt/git/docker_squid/restart.sh
+Restart=always
+TimeoutStopSec=30
+
+Type=simple
+
+[Install]
+WantedBy=network-online.target
