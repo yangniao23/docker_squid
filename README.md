@@ -1,6 +1,6 @@
 # Docker_squid
 
-## How to use ~in Linux~
+## How to use \~in Linux\~
 
 1. squid.confを編集する
 
