@@ -7,7 +7,7 @@
    PROXY_SERVERを接続したいプロキシサーバのFQDNに，
    PROXY_PORTはポート名に，
    PROXY_USERはユーザ名に，
-   PROXY_PASSはURパーセントエンコードされた状態のパスワードに置換する．
+   PROXY_PASSはURLパーセントエンコードされた状態のパスワードに置換する．
 
 2. dockerを動かす
 
